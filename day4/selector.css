@@ -1,0 +1,24 @@
+#full
+{
+    border: 5px solid red;
+}
+/* Decendent selector */
+/* .first .inner{
+    color: aquamarine;
+} */
+
+/* child selector */
+/* .outerdiv >.inner{
+    color: aqua;
+} */
+
+/* Adjecent sibling selector { + } */
+
+/* h1 + p{
+    color: brown;
+}     */
+
+/* general sibling selector{~} */
+/* h1 ~ p{
+color: red;
+} */

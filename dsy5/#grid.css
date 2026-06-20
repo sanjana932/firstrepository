@@ -1,0 +1,27 @@
+.container{
+    width: 500px;
+    height: 500px;
+    border-top: 20px double;
+    border-left: 20px dotted;
+    border-right: 20px dashed;
+    border-bottom: 20px solid;
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr;
+    grid-template-rows: 2fr;
+}
+.box{
+    border: 2px solid red;
+}
+
+.srijan{
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}

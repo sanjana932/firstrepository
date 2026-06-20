@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    let xyz = [11,22,33,44,55,"raju","kaju","baju"];
+
+    // start from 2nd index and remove 5 elements
+    let abc = xyz.splice(2,5);
+     
+    // start from 3rd index  remove 2 elements and add 4 elements
+    xyz.splice(3,2,33,77,21,"bit");
+
+    // add elements from the 5th index without removing any elements
+    xyz.splice(5,0,"raman","chaman","daman","naman");
+    // let seperate= xyz.slice(5,-1);
+    // console.log(seperate)
+
+    //if you want to check whether the element exist or not
+    // console.log(xyz.includes(555));
+
+    // console.log(xyz.indexOf(55));
+    // console.log(xyz.indexOf("hello"));
+    // console.log(xyz.lastIndexOf(55));
+   </script> 
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //rest operator
+        function abc(...a){
+            console.log(a);
+        }
+
+        let b = [11,22,33,44,55];
+        console.log(b);
+        console.log(...b);//spread operator
+        let c = b;
+        c=[...b];let a = [1,2,3,4,5];
+let result= a.reduce((sum,num)=>{
+    return sum+num;    
+},0);
+console.log(result);//Reference
+        abc(22);
+        abc(11,22);
+        abc(33,22,44);
+    </script>
+</body>
+</html>

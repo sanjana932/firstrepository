@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let names = ["raam",11,22,33,44,55,"sonu","monu","sanjana","kaju"]
+       console.log(names);
+       names.forEach(function(name){
+           console.log(name)
+       });
+
+      // names.forEach((n)=>{
+        //   console.log(n);
+       //});//arrowfunction
+
+     //  for (let name of names)
+       //{
+        //console.log(name)
+       //}
+       
+names.forEach((Element,index)=>{
+    if(index%2==0)
+    console.log(index+1)
+})
+    </script>
+</body>
+</html>
